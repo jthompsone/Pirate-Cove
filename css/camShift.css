@@ -1,0 +1,33 @@
+#window{
+  -webkit-animation: AStageShift 30s ease-in-out infinite alternate;
+  animation: AStageShift 30s ease-in-out infinite alternate;
+}
+
+#floor{
+  -webkit-animation: Adecal 30s ease-in-out infinite alternate;
+  animation: Adecal 30s ease-in-out infinite alternate;
+}
+
+#decalStrip{
+  -webkit-animation: Adecal 30s ease-in-out infinite alternate;
+  animation: Adecal 30s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes AStageShift {
+  0%  {left: 60px;}
+  100%{left: 360px}
+}
+@keyframes AStageShift {
+  0%  {left: 60px;}
+  100%{left: 360px}
+}
+
+@-webkit-keyframes Adecal {
+  0%  {background-position: 60px;}
+  100%{background-position: 360px}
+}
+@keyframes Adecal {
+  0%  {background-position: 60px;}
+  100%{background-position: 360px}
+}

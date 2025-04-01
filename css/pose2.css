@@ -1,0 +1,127 @@
+/*Entire model*/
+#foxy{
+  transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+}
+
+/*Quick access to headMod code*/
+#headMod{
+  transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+}
+
+#patch{
+  transform: rotateX(100deg);
+  -ms-transform: rotateX(100deg);
+  -webkit-transform: rotateX(100deg);
+}
+
+/*Upper Body*/
+#body{
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
+
+#neck{
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+/*Left Arm*/
+#lShoulder{
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+#lArm{
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+#lElbow{
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#hookBox{
+  transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+/*Right Arm*/
+#rShoulder{
+  transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+}
+
+#rArm{
+  transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+}
+
+#rElbow{
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#handBox{
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+}
+
+/*Lower Body*/
+#legs{
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+/*Left leg*/
+#lLeg{
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#eLowLegL{
+  transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+}
+
+#lFoot{
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
+
+/*Rigth leg*/
+#rLeg{
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
+
+#eLowLegR{
+  transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+}
+
+#rFoot{
+  transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -webkit-transform: rotate(13deg);
+}

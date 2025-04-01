@@ -1,0 +1,64 @@
+@-webkit-keyframes AHead {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+@keyframes AHead {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+
+@-webkit-keyframes AUpperBody {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(12deg);}
+  100% {transform: rotate(12deg);}
+}
+@keyframes AUpperBody {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(12deg);}
+  100% {transform: rotate(12deg);}
+}
+
+@-webkit-keyframes ArightArm {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+@keyframes ArightArm {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+
+@-webkit-keyframes AleftElbow {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+@keyframes AleftElbow {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(-12deg);}
+  100% {transform: rotate(-12deg);}
+}
+
+
+#headMod{
+  -webkit-animation: AHead 10s ease 20s 1;
+  animation: AHead 10s ease 20s 1;
+}
+
+#body{
+  -webkit-animation: AUpperBody 10s ease 20s 1;
+  animation: AUpperBody 10s ease 20s 1;
+}
+
+#rArm{
+  -webkit-animation: ArightArm 10s ease 20s 1;
+  animation: ArightArm 10s ease 20s 1;
+}
+
+#lElbow{
+  -webkit-animation: AleftElbow 10s ease 20s 1;
+  animation: AleftElbow 10s ease 20s 1;
+}

@@ -1,0 +1,177 @@
+@keyframes AHead {
+  0%   {transform: rotate(15deg);}
+  5%   {transform: rotate(15deg);}
+  55%  {transform: rotate(35deg);}
+  100% {transform: rotate(35deg);}
+}
+@-webkit-keyframes AHead {
+  0%   {transform: rotate(15deg);}
+  5%   {transform: rotate(15deg);}
+  55%  {transform: rotate(35deg);}
+  100% {transform: rotate(35deg);}
+}
+
+@keyframes APatch {
+  0%   {transform: rotateX(100deg);}
+  50%  {transform: rotateX(120deg);}
+  100% {transform: rotateX(120deg);}
+}
+@-webkit-keyframes APatch {
+  0%   {transform: rotateX(100deg);}
+  50%  {transform: rotateX(120deg);}
+  100% {transform: rotateX(120deg);}
+}
+
+@keyframes ABody {
+  0%   {transform: rotate(5deg);}
+  50%  {transform: rotate(9deg);}
+  100% {transform: rotate(9deg);}
+}
+@-webkit-keyframes ABody {
+  0%   {transform: rotate(5deg);}
+  50%  {transform: rotate(9deg);}
+  100% {transform: rotate(9deg);}
+}
+
+@keyframes ALArm {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(20deg);}
+  100% {transform: rotate(20deg);}
+}
+@-webkit-keyframes ALArm {
+  0%   {transform: rotate(0deg);}
+  50%  {transform: rotate(20deg);}
+  100% {transform: rotate(20deg);}
+}
+
+@keyframes ALBow {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(120deg);}
+  100% {transform: rotate(120deg);}
+}
+@-webkit-keyframes ALBow {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(120deg);}
+  100% {transform: rotate(120deg);}
+}
+
+@keyframes ARArm {
+  0%   {transform: rotate(-30deg);}
+  50%  {transform: rotate(-40deg);}
+  100% {transform: rotate(-40deg);}
+}
+@-webkit-keyframes ARArm {
+  0%   {transform: rotate(-30deg);}
+  50%  {transform: rotate(-40deg);}
+  100% {transform: rotate(-40deg);}
+}
+
+@keyframes ARBow {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(55deg);}
+  100% {transform: rotate(55deg);}
+}
+@-webkit-keyframes ARBow {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(55deg);}
+  100% {transform: rotate(55deg);}
+}
+
+@keyframes AHand {
+  0%   {transform: rotate(-10deg);}
+  50%  {transform: rotate(-20deg);}
+  100% {transform: rotate(-20deg);}
+}
+@-webkit-keyframes AHand {
+  0%   {transform: rotate(-10deg);}
+  50%  {transform: rotate(-20deg);}
+  100% {transform: rotate(-20deg);}
+}
+
+@keyframes ALLeg {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(55deg);}
+  100% {transform: rotate(55deg);}
+}
+@-webkit-keyframes ALLeg {
+  0%   {transform: rotate(45deg);}
+  50%  {transform: rotate(55deg);}
+  100% {transform: rotate(55deg);}
+}
+
+@keyframes ALKnee {
+  0%   {transform: rotate(-25deg);}
+  50%  {transform: rotate(-45deg);}
+  100% {transform: rotate(-45deg);}
+}
+@-webkit-keyframes ALKnee {
+  0%   {transform: rotate(-25deg);}
+  50%  {transform: rotate(-45deg);}
+  100% {transform: rotate(-45deg);}
+}
+
+@keyframes ALFoot {
+  0%   {transform: rotate(5deg);}
+  50%  {transform: rotate(15deg);}
+  100% {transform: rotate(15deg);}
+}
+@-webkit-keyframes ALFoot {
+  0%   {transform: rotate(5deg);}
+  50%  {transform: rotate(15deg);}
+  100% {transform: rotate(15deg);}
+}
+
+#headMod{
+  animation: AHead 8s ease 35s 1;
+  -webkit-animation: AHead 8s ease 35s 1;
+}
+
+#patch{
+  animation: APatch 8s ease 35s 1;
+  -webkit-animation: APatch 8s ease 35s 1;
+}
+
+#body{
+  animation: ABody 8s ease 35s 1;
+  -webkit-animation: ABody 8s ease 35s 1;
+}
+
+#lArm{
+  animation: ALArm 8s ease 35s 1;
+  -webkit-animation: ALArm 8s ease 35s 1;
+}
+
+#lElbow{
+  animation: ALBow 8s ease 35s 1;
+  -webkit-animation: ALBow 8s ease 35s 1;
+}
+
+#rArm{
+  animation: ARArm 8s ease 35s 1;
+  -webkit-animation: ARArm 8s ease 35s 1;
+}
+
+#rElbow{
+  animation: ARBow 8s ease 35s 1;
+  -webkit-animation: ARBow 8s ease 35s 1;
+}
+
+#handBox{
+  animation: AHand 8s ease 35s 1;
+  -webkit-animation: AHand 8s ease 35s 1;
+}
+
+#lLeg{
+  animation: ALLeg 8s ease 35s 1;
+  -webkit-animation: ALLeg 8s ease 35s 1;
+}
+
+#eLowLegL{
+  animation: ALKnee 8s ease 35s 1;
+  -webkit-animation: ALKnee 8s ease 35s 1;
+}
+
+#lFoot{
+  animation: ALFoot 8s ease 35s 1;
+  -webkit-animation: ALFoot 8s ease 35s 1;
+}
